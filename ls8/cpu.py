@@ -2,7 +2,6 @@
 
 import sys
 
-
 LDI = 0b10000010
 PRN = 0b01000111 # Print
 HLT = 0b00000001  # Halt
@@ -10,6 +9,10 @@ MUL = 0b10100010  # Multiply
 ADD = 0b10100000  # Addition
 SUB = 0b10100001 # Subtraction
 DIV = 0b10100011 # Division
+PUSH = 0b01000101 # Stack Push
+POP = 0b01000110 # Stack Pop
+SP = 7 # Stack pointer
+
 
 
 class CPU:
